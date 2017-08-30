@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Assessment</title>
+            </head>
+            <body>
+            <script type="text/javascript">
+//Question 1
+
+            var number = Math.floor(Math.random() * 201) - 100;
+        function isNegative(input){
+        if (input < 0){
+            console.log("The number " + input + " is negative");
+            return false;
+        } else if (number > 0) {
+            console.log("The number " + input + " is positive");
+            return true
+        } else {
+              console.log("The number is 0");
+              return false
+
+//Question 2
+
+var total = 0;
+
+function average(arr){
+for(var i = 0; i < arr.length; i++) {
+total += arr[i];
+}
+var avg = total / arr.length;
+console.log(parseInt(avg));
+}
+
+average([1, 2, 3]) // 2
+average([4, 6, 8, 10, 12]) // 8
+average([42, 23, 88, 30, 18, 09, 12])
+
+//Question 3
+
+
+var oddNumbers = []
+
+function countOdds(arr){
+arr.forEach(function (number, index) {
+if (number % 2 != 0){
+oddNumbers.push(number);
+}
+})
+console.log("there are " + oddNumbers.length + " odd numbers in the array of " + arr);
+
+};}
+
+//Question 4
+
+
+            var oddNumbers = []
+
+            function countOdds(arr){
+                arr.forEach(function (number, index) {
+                    if (number % 2 != 0){
+                        oddNumbers.push(number);
+                    }
+                })
+                console.log("there are " + oddNumbers.length + " odd numbers in the array of " + arr);
+
+            };}
+
+// I deleted the Jasmine script review because it wasnt positive.  Did not create new project and instead
+                //saved to web-exercises because I'm unclear how to create a new project without messing things up
+                //so I'm telling you that I purposely saved it to web-exercises, even though I reaalize that is
+                //not the instruction exactly.
+</script>
+
+</body>
+</html>

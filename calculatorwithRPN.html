@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+        .calcButton{
+            font-size: 4em;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="cover">
+    <span class="icon calculator"></span>
+
+<form class="calcForm" name="calculator">
+    <input type="text" class="calcDisplay" id="display" />
+    <!--<input type="text" class="calcDisplay" id="display" />-->
+    <!--<input type="text" class="calcDisplay" id="display" />-->
+    <div class="calcRow">
+        <input type="button" class="calcButton" value="7" onclick="numInput('7')" />
+        <input type="button" class="calcButton" value="8" onclick="numInput('8')" />
+        <input type="button" class="calcButton" value="9" onclick="numInput('9')" />
+        <input type="button" class="calcButton" value="+" onclick="setOperation('add')" />
+    </div>
+    <div class="calcRow">
+        <input type="button" class="calcButton" value="4" onclick="numInput('4')" />
+        <input type="button" class="calcButton" value="5" onclick="numInput('5')" />
+        <input type="button" class="calcButton" value="6" onclick="numInput('6')" />
+        <input type="button" class="calcButton" value="-" onclick="setOperation('subtract')" />
+    </div>
+    <div class="calcRow">
+        <input type="button" class="calcButton" value="1" onclick="numInput('1')" />
+        <input type="button" class="calcButton" value="2" onclick="numInput('2')" />
+        <input type="button" class="calcButton" value="3" onclick="numInput('3')" />
+        <input type="button" class="calcButton" value="x" onclick="setOperation('multiply')" />
+    </div>
+    <div class="calcRow">
+        <input type="button" class="calcButton" value="0" onclick="numInput('0')" />
+        <input type="button" class="calcButton" value="." onclick="insertDecimal('.')" />
+        <input type="button" class="calcButton" value="C" onclick="clearDisplay()" />
+        <input type="button" class="calcButton" value="=" onclick="calculate()" />
+        <a href="Calc2.html">RPN</a>
+    </div>
+</form>
+
+    <!--<div id ="myContainer">-->
+        <!--<div id ="myAnimation">My animation will go here</div>-->
+<script src="js/calculator.js"></script>
+
+
+</body>
+</html>

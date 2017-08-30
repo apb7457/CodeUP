@@ -1,0 +1,50 @@
+body{
+  background-image: url("img/greenfield.jpeg");
+  background-size: fill page;
+  background-repeat: no-repeat;
+}
+#calcDisplay1{
+  height: 75px;
+  width:125px;
+  background-color: lightblue;
+  font-size: 2.5em;
+}
+#calcDisplay2{
+  height: 50px;
+  width: 80px;
+  background-color: lightgreen;
+  font-size: 2.5em;
+}
+#calcDisplay3{
+  height: 75px;
+  width: 125px;
+  background-color: lightblue;
+  font-size: 2.5em;
+}
+.calcButton{
+  background-color: lightgreen;
+  border-width: 25px;
+  padding: 15px;
+}
+.calcSignButton{
+  background-color: lightgreen;
+  border-width: 25px;
+  padding: 15px;
+}
+#equals{
+  background-color: lightgreen;
+  border-width: 25px;
+  padding: 15px;
+}
+#clear{
+  background-color: lightgreen;
+  border-width: 25px;
+  padding: 15px;
+}
+.container{
+  padding-top: 150px;
+  text-align: center;
+}
+input[type="button"]{
+  font-size: 30px;
+}
